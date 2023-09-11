@@ -28,6 +28,7 @@ metadata:
   name: max-replicas
 spec:
   policyName: max-replicas
+  validationActions: [Deny]
   matchResources:
     namespaceSelector:
       matchLabels:
